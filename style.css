@@ -1,0 +1,68 @@
+.cuadrado{
+width: 800px;
+height: 100px;
+background: rgba(0, 128, 0, 0.432);
+position: relative;
+left: 250px;
+margin: 150px;
+z-index: 1;
+border: dashed green;
+
+}
+.rectangulo{
+width: 475px;
+height: 130px;
+background: rgba(255, 0, 0, 0.342);
+left: 700px;
+bottom: 175px;;
+position: relative;
+z-index: 6;
+border: dashed red;
+}
+
+.circulo{
+width: 250px;
+height: 425px;
+background: rgba(0, 0, 255, 0.432);
+left: 900px;
+top: 200px;
+position: absolute;
+z-index: 5;
+border: dashed blue;
+}
+
+.oblicuo{
+    width: 560px;
+    height: 540px;
+    position: absolute;
+    left: 675px;
+    top: 175px;
+    z-index: 1;
+    background-color: rgba(0, 255, 255, 0.274);
+   border: dashed aqua; 
+}
+
+.triangulo{
+width: 800px;
+height: 100px;
+position: relative;
+bottom: 100px;
+left: 400px;
+z-index: 1;
+background: rgba(238, 130, 238, 0.356);
+border: dashed pink;
+
+
+}
+
+.piramid{
+width: 475px;
+height: 100px;
+position: relative;
+background: rgba(216, 112, 147, 0.397);
+border: dashed brown;
+left: 700px;
+margin-bottom: 100px;
+z-index: 1;
+
+}
